@@ -18,6 +18,9 @@ app.get('/about',(req,res)=>{
 app.get('/contact',(req,res)=>{
     res.send("Contact Us Page");
 });
+app.get('/blog',(req,res)=>{
+    res.send("Blog Page");
+});
 
 app.listen(process.env.PORT, ()=>{
     console.log(`Example App listening on port ${PORT}`);
